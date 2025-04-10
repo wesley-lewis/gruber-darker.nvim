@@ -1,5 +1,6 @@
 local M = {}
 
+-- colors for the colorscheme
 M.colors = {
 	fg 			= "#e4e4ef",
 	fg_1 		= "#f4f4ff",
@@ -39,8 +40,10 @@ M.setup = function()
 		NonText 	= { link = "Normal" },
 
 		FloatBorder = { fg = colors.fg },
-		Cursor 		= { fg = colors.yellow },
+		Cursor 		= { fg = colors.yellow, bg = colors.white },
 		CursorLine  = { bg = colors.bg_1 },
+
+		TabLineFill = { fg = colors.bg_4 },
 
 		ColorColumn = { bg = colors.bg_1 },
 		SignColomn 	= { link = "Normal" },
