@@ -117,7 +117,7 @@ M.setup = function()
 		DiffChange 	= { fg = colors.yellow },
 
 		SpellBad = { fg = colors.red, underline = config.underline },
-		SpellCap = { fg = colors.yellow, underlien = config.underline },
+		SpellCap = { fg = colors.yellow, underline = config.underline },
 
 		StatusLine 		= { bg = colors.bg_1, fg = colors.white },
 		StatusLineNC 	= { bg = colors.bg_1, fg = colors.quartz },
