@@ -6,10 +6,12 @@ M.config = {
 	underline = true,
 }
 
+-- @param config GruberDarkerConfig?
 M.setup = function(config)
 	M.config = vim.tbl_deep_extend("force", M.config, config or {})
 end
 
+-- main load function
 M.load = function()
 	if vim.g.colors_name then
 		vim.cmd.hi("clear")
