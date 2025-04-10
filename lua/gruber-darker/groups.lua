@@ -38,9 +38,9 @@ M.setup = function()
 		NormalFloat = { link = "Normal" },
 		NonText 	= { link = "Normal" },
 
-		FloatBorder = { fg = colors.fg }
+		FloatBorder = { fg = colors.fg },
 		Cursor 		= { fg = colors.yellow },
-		CursorLine  = {bg = colors.bg_1 },
+		CursorLine  = { bg = colors.bg_1 },
 
 		ColorColumn = { bg = colors.bg_1 },
 		SignColomn 	= { link = "Normal" },
